@@ -349,7 +349,7 @@ const ListMusic = () => {
                             <img
                               src={imageSrcCreate}
                               alt="Selected"
-                              style={{ maxWidth: "100%", height: "100" }}
+                              style={{ maxWidth: "250px", height: "250px" }}
                             />
                           )}
                           {errors.file && (
@@ -434,7 +434,7 @@ const ListMusic = () => {
                             <img
                               src={imageSrc}
                               alt="Selected"
-                              style={{ maxWidth: "100%", height: "100" }}
+                              style={{ maxWidth: "250px", height: "250px" }}
                             />
                           )}
                         </FormField>
